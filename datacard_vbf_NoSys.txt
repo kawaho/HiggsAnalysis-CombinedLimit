@@ -1,0 +1,19 @@
+imax *
+jmax *
+kmax *
+---------------------------------------------
+shapes      GGLFV      vbf        workspace_sig_vbf.root w_13TeV:vbf_ggH_pdf
+shapes      VBFLFV     vbf        workspace_sig_vbf.root w_13TeV:vbf_qqH_pdf
+shapes      bkg        vbf        CMS_Hemu_13TeV_multipdf.root multipdf:CMS_hemu_vbf_13TeV_bkgshape
+shapes      data_obs   vbf        CMS_Hemu_13TeV_multipdf.root multipdf:roohist_data_mass_vbf
+
+--------------------------------------------
+bin                      vbf                           
+observation              -1                            
+--------------------------------------------
+bin                                                          vbf                       vbf                       vbf                      
+process                                                      GGLFV                     VBFLFV                    bkg                      
+process                                                      0                         -1                        1                        
+rate                                                         1                         1                         1                        
+--------------------------------------------
+pdfindex_vbf_13TeV    discrete

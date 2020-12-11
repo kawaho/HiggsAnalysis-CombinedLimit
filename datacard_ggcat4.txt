@@ -1,0 +1,77 @@
+imax *
+jmax *
+kmax *
+---------------------------------------------
+shapes      GGLFV      ggcat4     workspace_sig_ggcat4.root w_13TeV:ggcat4_ggH_pdf
+shapes      VBFLFV     ggcat4     workspace_sig_ggcat4.root w_13TeV:ggcat4_qqH_pdf
+shapes      bkg        ggcat4     CMS_Hemu_13TeV_multipdf.root multipdf:env_pdf_ggcat4_bern1
+shapes      data_obs   ggcat4     CMS_Hemu_13TeV_multipdf.root multipdf:roohist_data_mass_ggcat4
+
+--------------------------------------------
+bin                      ggcat4                        
+observation              -1                            
+--------------------------------------------
+bin                                                          ggcat4                    ggcat4                    ggcat4                   
+process                                                      GGLFV                     VBFLFV                    bkg                      
+process                                                      0                         -1                        1                        
+rate                                                         1                         1                         1                        
+--------------------------------------------
+CMS_Trigger_emu_13TeV                lnN                     1.02                      1.02                      -                        
+CMS_eff_e                            lnN                     1.02                      1.02                      -                        
+CMS_eff_m                            lnN                     1.02                      1.02                      -                        
+CMS_lumi_2016_13TeV                  lnN                     1.0061                    1.008                     -                        
+CMS_lumi_2017_13TeV                  lnN                     1.0069                    1.006                     -                        
+CMS_lumi_2018_13TeV                  lnN                     1.0114                    1.01                      -                        
+QCDscale_ggH                         lnN                     1.0095                    -                         -                        
+QCDscale_qqH                         lnN                     -                         0.9869                    -                        
+acceptance_pdf_gg                    lnN                     1.0239                    -                         -                        
+acceptance_pdf_vbf                   lnN                     -                         1.0122                    -                        
+acceptance_scale_gg                  lnN                     0.9995                    -                         -                        
+acceptance_scale_vbf                 lnN                     -                         1.003                     -                        
+CMS_res_j_2016                       lnN                     1.003/0.999               1.008/0.995               -                         
+CMS_res_j_2017                       lnN                     1.005/0.996               1.008/0.994               -                         
+CMS_res_j_2018                       lnN                     1.005/0.999               1.011/0.996               -                         
+CMS_scale_j_Absolute                 lnN                     1.005/0.994               1.018/0.992               -                         
+CMS_scale_j_Absolute_2016            lnN                     1.000/1.000               1.004/0.999               -                         
+CMS_scale_j_Absolute_2017            lnN                     1.001/0.999               1.002/0.998               -                         
+CMS_scale_j_Absolute_2018            lnN                     1.001/0.999               1.003/0.997               -                         
+CMS_scale_j_BBEC1                    lnN                     1.002/1.000               1.004/0.996               -                         
+CMS_scale_j_BBEC1_2016               lnN                     1.001/1.000               1.002/1.000               -                         
+CMS_scale_j_BBEC1_2017               lnN                     1.000/1.000               1.000/0.999               -                         
+CMS_scale_j_BBEC1_2018               lnN                     1.000/1.000               1.003/0.997               -                         
+CMS_scale_j_EC2                      lnN                     1.001/0.999               1.004/0.996               -                         
+CMS_scale_j_EC2_2016                 lnN                     1.000/1.001               1.002/0.998               -                         
+CMS_scale_j_EC2_2017                 lnN                     1.000/0.999               1.001/0.999               -                         
+CMS_scale_j_EC2_2018                 lnN                     1.001/0.999               1.004/0.996               -                         
+CMS_scale_j_FlavorQCD                lnN                     1.003/0.996               1.014/0.996               -                         
+CMS_scale_j_HF                       lnN                     1.003/0.998               1.008/0.996               -                         
+CMS_scale_j_HF_2016                  lnN                     1.001/1.000               0.998/1.002               -                         
+CMS_scale_j_HF_2017                  lnN                     1.000/0.999               1.000/0.999               -                         
+CMS_scale_j_HF_2018                  lnN                     1.000/1.000               0.999/1.001               -                         
+CMS_scale_j_RelativeBal              lnN                     0.998/1.001               0.997/1.011               -                         
+CMS_scale_j_RelativeSample_2016      lnN                     0.999/1.001               0.999/1.001               -                         
+CMS_scale_j_RelativeSample_2017      lnN                     0.999/1.000               0.996/1.002               -                         
+CMS_scale_j_RelativeSample_2018      lnN                     0.998/1.001               0.997/1.008               -                         
+CMS_scale_met_2016                   lnN                     1.016/0.978               1.015/0.984               -                         
+CMS_scale_met_2017                   lnN                     1.018/0.977               1.007/0.988               -                         
+CMS_scale_met_2018                   lnN                     1.022/0.969               1.015/0.979               -                         
+CMS_eff_btag_2016                    lnN                     1.000/1.000               1.001/0.999               -                         
+CMS_eff_btag_2017                    lnN                     1.000/1.000               1.000/1.000               -                         
+CMS_eff_btag_2018                    lnN                     1.001/0.999               1.001/0.999               -                         
+CMS_res_e                            lnN                     1.000/1.000               1.000/1.000               -                         
+CMS_scale_e                          lnN                     1.000/1.000               0.999/1.000               -                         
+CMS_scale_m                          lnN                     1.000/0.999               1.001/0.999               -                         
+CMS_prefiring_2016                   lnN                     1.000/1.000               1.002/0.998               -                         
+CMS_prefiring_2017                   lnN                     1.001/0.999               1.003/0.997               -                         
+CMS_pileup_2016                      lnN                     1.008/0.992               1.009/0.992               -                         
+CMS_pileup_2017                      lnN                     1.011/0.990               1.008/0.993               -                         
+CMS_pileup_2018                      lnN                     1.015/0.985               1.014/0.986               -                         
+---------------------------------------------
+CMS_hem_nuisance_scale_e_ggH    param  0  0.0269
+CMS_hem_nuisance_scale_m_ggH    param  0  0.0280
+CMS_hem_nuisance_res_e_ggH      param  0  0.1797
+CMS_hem_nuisance_res_m_ggH      param  0  0.1617
+CMS_hem_nuisance_scale_e_qqH    param  0  0.0336
+CMS_hem_nuisance_scale_m_qqH    param  0  0.0333
+CMS_hem_nuisance_res_e_qqH      param  0  0.2399
+CMS_hem_nuisance_res_m_qqH      param  0  0.2346

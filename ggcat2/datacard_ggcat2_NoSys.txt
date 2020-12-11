@@ -1,0 +1,19 @@
+imax *
+jmax *
+kmax *
+---------------------------------------------
+shapes      GGLFV      ggcat2     workspace_sig_ggcat2.root w_13TeV:ggcat2_ggH_pdf
+shapes      VBFLFV     ggcat2     workspace_sig_ggcat2.root w_13TeV:ggcat2_qqH_pdf
+shapes      bkg        ggcat2     CMS_Hemu_13TeV_multipdf.root multipdf:CMS_hemu_ggcat2_13TeV_bkgshape
+shapes      data_obs   ggcat2     CMS_Hemu_13TeV_multipdf.root multipdf:roohist_data_mass_ggcat2
+
+--------------------------------------------
+bin                      ggcat2                        
+observation              -1                            
+--------------------------------------------
+bin                                                          ggcat2                    ggcat2                    ggcat2                   
+process                                                      GGLFV                     VBFLFV                    bkg                      
+process                                                      0                         -1                        1                        
+rate                                                         1                         1                         1                        
+--------------------------------------------
+pdfindex_ggcat2_13TeV    discrete

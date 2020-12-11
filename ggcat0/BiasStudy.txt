@@ -1,0 +1,16 @@
+2020-11-26 11:29:02
+ggcat0 bern1 bern1 -4.59 1.007
+ggcat0 bern1 bern2 -5.775 1.009
+ggcat0 bern1 bern3 -6.804 1.009
+ggcat0 bern1 exp1 55.599 1.004
+ggcat0 bern1 exp3 55.649 1.004
+ggcat0 exp1 bern1 -49.712 1.014
+ggcat0 exp1 bern2 -13.658 1.014
+ggcat0 exp1 bern3 -7.149 1.008
+ggcat0 exp1 exp1 -4.447 1.012
+ggcat0 exp1 exp3 6.722 1.002
+ggcat0 lau2 bern1 66.126 0.998
+ggcat0 lau2 bern2 66.607 0.999
+ggcat0 lau2 bern3 4.32 0.997
+ggcat0 lau2 exp1 124.626 0.994
+ggcat0 lau2 exp3 124.606 0.994

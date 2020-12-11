@@ -1,1 +1,6 @@
 site
+*.out
+*.root
+*.log
+*.err
+*.sub
